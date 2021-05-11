@@ -20,11 +20,7 @@ More information about Selenium at: [Selenium](https://www.selenium.dev/)
 You can download chrome driver file from the project here: [ChromeDriver](./chromedriver)
 
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+! warning: It is your responsibility to use this program, so try to use it properly.
 ```
 ---
 
