@@ -19,8 +19,9 @@ More information about Selenium at: [Selenium](https://www.selenium.dev/)
 ### Chrome Driver
 You can download chrome driver file from the project here: [ChromeDriver](./chromedriver)
 
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
-
+```html
+   <span style="color:blue">some *blue* text</span>.
+```
 ---
 
 <div align="center">
