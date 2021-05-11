@@ -8,7 +8,7 @@
 
 ``` bash
 # Install Selenium
-pip install selenium
+pip/pip3 install selenium
 
 # Install chrome driver
 Download chrome driver from my project.
