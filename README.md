@@ -19,8 +19,12 @@ More information about Selenium at: [Selenium](https://www.selenium.dev/)
 ### Chrome Driver
 You can download chrome driver file from the project here: [ChromeDriver](./chromedriver)
 
-```html
-   <span style="color:blue">some *blue* text</span>.
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
 ```
 ---
 
