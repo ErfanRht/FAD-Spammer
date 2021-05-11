@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 
-# You must download the chromedriver. This file available in my repository.
+# You must download the chromedriver file. This file available in my repository.
 
 def click(section_xpatch):
     driver.find_element_by_xpath(section_xpatch).click()
