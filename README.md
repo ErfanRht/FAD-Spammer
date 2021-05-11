@@ -19,7 +19,6 @@ More information about Selenium at: [Selenium](https://www.selenium.dev/)
 ### Chrome Driver
 You can download chrome driver file from the project here: [ChromeDriver](./chromedriver)
 
----
 ```diff
 ! warning: It is yourself responsibility to use this program, so try to use it properly.
 ```
