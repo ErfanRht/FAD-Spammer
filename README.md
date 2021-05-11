@@ -7,11 +7,11 @@
 ## Quick Start
 
 ``` bash
-# Install Selenium
+# Install Selenium library:
 pip/pip3 install selenium
 
-# Install chrome driver
-Download chrome driver from my project.
+# Download chromedriver file:
+You can download chromedriver file from my project.
 ```
 ### Selenium
 More information about Selenium at: [Selenium](https://www.selenium.dev/)
