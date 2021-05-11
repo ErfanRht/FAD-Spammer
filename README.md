@@ -2,7 +2,7 @@
 > A message spammer program with Python.
 
 ## About program
-> This program can send a lot number messages to a phone number using Snapp web site.
+> This program can send a lot number messages to a phone number using Snapp web server.
 
 ## Quick Start
 
@@ -18,6 +18,8 @@ More information about Selenium at: [Selenium](https://www.selenium.dev/)
 
 ### Chrome Driver
 You can download chrome driver file from the project here: [ChromeDriver](./chromedriver)
+
+<span style="color:blue">some *blue* text</span>.
 
 ---
 
