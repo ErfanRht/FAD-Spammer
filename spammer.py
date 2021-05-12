@@ -1,5 +1,4 @@
 from selenium import webdriver
-from termcolor import colored
 from time import sleep
 
 # You must download the chromedriver. This file available in my repository.
@@ -62,19 +61,19 @@ servers_data = {
       "page_link": 'https://www.sheypoor.com/session',
       "input_patch": '//*[@id="username"]',
       "done_patch": '//*[@id="session"]/div/form/p[5]/button'
-        },
+        }, 
 }
 
 while True:
     phone_number = input('Enter the number you want to spam it: ')
     try:
         if len(phone_number) != 11:
-            print(colored("Please enter a phone number!", "red"))
+            print("-Please enter a phone number!")
         else:
             int(phone_number)
             break
     except:
-        print(colored("Please enter a phone number!", "red"))
+        print("-Please enter a phone number!")
 
 while True:
     target_number = int(input('Enter the number of messages: '))
@@ -82,13 +81,12 @@ while True:
         target_number = int(target_number)
         break
     except:
-        print(colored("Please enter a number!", "red"))
+        print("-Please enter a number!")
 
 done_number = 0
 now_number = 0
 
-driver = webdriver.Chrome(executable_path='/home/[username]/Desktop/chromedriver') # chromedriver patch
-
+driver = webdriver.Chrome(executable_path='/home/[user]/Desktop/Python/Spammer/chromedriver') # chromedriver patch
 while True:
     if done_number >= target_number:
         break
@@ -96,7 +94,7 @@ while True:
     if now_number>len(servers_data)-1:
         now_number = 0
         driver.close()
-        driver = webdriver.Chrome(executable_path='/home/erfan/Desktop/chromedriver')
+        driver = webdriver.Chrome(executable_path='/home/iman/Desktop/Erfan/Python/Spammer/chromedriver')
 
     driver.get(servers_data[now_number]["page_link"])
 
@@ -112,8 +110,23 @@ while True:
 
     fill(servers_data[now_number]["input_patch"], phone_number)
     click(servers_data[now_number]["done_patch"])
+
+    if now_number == 6:
+        sleep(6)
+        now_number += 1
+        done_number += 1
+        if done_number >= target_number:
+            break
+        else:
+            while True:
+                try:
+                    click('/html/body/div[2]/div/div/div/div/button[2]')
+                    break
+                except:
+                    pass
+
     if now_number == 5:
-        sleep(1)
+        sleep(2)
         click('//*[@id="ng-app"]/body/div[5]/div[2]/div/div/div[2]/button[2]')
     sleep(1)
 
@@ -121,4 +134,4 @@ while True:
     done_number += 1
 
 driver.close()
-print(colored("The mission was completed successfully.", "green"))
+print("+The mission was completed successfully.")
