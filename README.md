@@ -2,8 +2,7 @@
 > A message spammer program with Python.
 
 ## About program
-> This program can send a lot number messages to a phone number using Snapp web server.
-
+> This program can send a lot number messages to a phone number.
 ## Quick Start
 
 ``` bash
