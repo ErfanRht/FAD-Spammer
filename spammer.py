@@ -82,7 +82,7 @@ while True:
         break
     except:
         print("-Please enter a number!")
-
+        
 done_number = 0
 now_number = 0
 
@@ -91,7 +91,7 @@ while True:
     if done_number >= target_number:
         break
 
-    if now_number>len(servers_data)-1:
+    if now_number>len(servers_data)-1 :
         now_number = 0
         driver.close()
         driver = webdriver.Chrome(executable_path='/home/iman/Desktop/Erfan/Python/Spammer/chromedriver')
