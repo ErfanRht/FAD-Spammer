@@ -17,7 +17,9 @@ More information about Selenium at: [Selenium.dev](https://www.selenium.dev/)
 
 ### Chrome Driver
 You can download chrome driver file from the project here: [ChromeDriver](./chromedriver)
-
+```diff
+- This program only works for phone numbers with the Iranian prefix.
+```
 ```diff
 ! warning: It is yourself responsibility to use this program, so try to use it properly.
 ```
