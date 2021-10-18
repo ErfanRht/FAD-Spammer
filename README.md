@@ -24,30 +24,21 @@ You can download chrome driver file from the project here: [ChromeDriver](./chro
 ! warning: It is yourself responsibility to use this program, so try to use it properly.
 ```
 
+## Contributing
+
+Feel free to dive in! [Open an issue](https://github.com/ErfanRht/Spammer/issues/new) or submit PRs
+
+## Issues
+
+Please file any issues, bugs or feature request [here](https://github.com/ErfanRht/Spammer/issues).
+
 ## License
-```
-MIT License
 
-Copyright (c) 2021 Erfan Rahmati
+This project is licensed under the [Apache-2.0 License](https://github.com/ErfanRht/Spammer/blob/master/LICENSE).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Author
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+This Python project is developed by [Erfan Rahmati](https://github.com/ErfanRht).
 
 ---
 
