@@ -1,4 +1,4 @@
-# Spammer
+# From All Directions Spammer
 > A message spammer program with Python.
 
 ## About program
