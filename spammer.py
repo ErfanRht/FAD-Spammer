@@ -86,7 +86,7 @@ while True:
 done_number = 0
 now_number = 0
 
-driver = webdriver.Chrome(executable_path='/home/[user]/Desktop/Python/Spammer/chromedriver') # chromedriver patch
+driver = webdriver.Chrome(executable_path='./chromedriver') # chromedriver patch
 while True:
     if done_number >= target_number:
         break
@@ -94,7 +94,7 @@ while True:
     if now_number>len(servers_data)-1 :
         now_number = 0
         driver.close()
-        driver = webdriver.Chrome(executable_path='/home/iman/Desktop/Erfan/Python/Spammer/chromedriver')
+        driver = webdriver.Chrome(executable_path='./chromedriver')
 
     driver.get(servers_data[now_number]["page_link"])
 
